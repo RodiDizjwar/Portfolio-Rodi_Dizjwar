@@ -1,0 +1,216 @@
+body {
+    font-family: Arial;
+    background-color: #181818;
+    color: white;
+    margin: 0px;
+}
+
+.top {
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.top h1 {
+    margin-top: 0px;
+}
+
+.navigatie {
+    display: flex;
+    justify-content: center;
+}
+
+.navigatie a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid white;
+}
+
+.navigatie a:hover {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    border: 1px solid darkred;
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.introstuk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #282828;
+    padding: 20px;
+    border: 2px solid darkred;
+    box-sizing: border-box;
+}
+
+.profielfoto {
+    width: 170px;
+    border: 3px solid white;
+    margin-right: 25px;
+}
+
+.introtekst {
+    width: 75%;
+}
+
+.interviewstuk {
+    width: 85%;
+    margin: auto;
+    background-color: #222222;
+    padding: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #ff6666;
+}
+
+.tweekolommen {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.kolom {
+    width: 48%;
+    background-color: #282828;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: darkred;
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid white;
+    padding: 8px;
+    background-color: #181818;
+}
+
+.projectenstuk {
+    width: 85%;
+    margin: auto;
+}
+
+.projectrij {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.kaart {
+    width: 31%;
+    background-color: #282828;
+    border: 2px solid darkred;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.kaart img {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.contactstuk {
+    width: 85%;
+    margin: auto;
+    background-color: #282828;
+    padding: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.onderkant {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid darkred;
+}
+
+.onderkant a {
+    color: #ff6666;
+}
+
+@media (max-width: 768px) {
+    .navigatie {
+        flex-direction: column;
+    }
+
+    .introstuk {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profielfoto {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .introtekst {
+        width: 100%;
+    }
+
+    .tweekolommen {
+        flex-direction: column;
+    }
+
+    .kolom {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .projectrij {
+        flex-direction: column;
+    }
+
+    .kaart {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

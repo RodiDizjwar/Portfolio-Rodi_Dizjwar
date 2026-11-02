@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website van Rodi Dizjwar voor periode 1 Software Developer op het TCR.">
+    <title>Rodi Dizjwar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top">
+        <h1>Portfolio van Rodi Dizjwar</h1>
+        <div class="navigatie">
+            <a href="#overmij">Over mij</a>
+            <a href="#interview">Interview</a>
+            <a href="#vakken">Vakken & Video</a>
+            <a href="#projecten">Projecten</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div id="overmij" class="introstuk">
+        <img src="foto.jpg.jpg" alt="foto rodi" class="profielfoto">
+        <div class="introtekst">
+            <h2>Even voorstellen</h2>
+            <p>Hallo! Ik ben Rodi Dizjwar en ik ben 18 jaar. Ik zit in klas 1 van de opleiding Software Developer (MBO niveau 4) op het Techniek College Rotterdam.</p>
+            <p>Ik heb voor deze opleiding gekozen omdat ik thuis veel achter mijn pc zit. Naast het gamen met vrienden wilde ik graag leren hoe websites en games nou echt gemaakt worden. Op deze pagina laat ik zien wat ik in periode 1 heb geleerd.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="interview" class="interviewstuk">
+        <h2>Interview met klasgenoot Servethan</h2>
+        <p>Voor het project van periode 1 heb ik samen met Servethan een interview gehouden over onze opleiding. Hieronder staan de 5 vragen en mijn antwoorden:</p>
+        <br>
+
+        <p><b>Vraag 1: Waarom heb je gekozen voor de opleiding Software Development?</b></p>
+        <p>Antwoord: Omdat ik graag met computers bezig ben en zelf wil leren hoe je websites en programma's opbouwt met code.</p>
+        <br>
+
+        <p><b>Vraag 2: Had je voor deze school al ervaring met programmeren?</b></p>
+        <p>Antwoord: Nee eigenlijk niet. Ik ben pas in de eerste weken op het TCR echt begonnen met HTML en CSS typen in Visual Studio Code.</p>
+        <br>
+
+        <p><b>Vraag 3: Wat vind je tot nu toe het leukste onderdeel?</b></p>
+        <p>Antwoord: Het stylen van mijn website met CSS. Als je een kleur of maat aanpast en op opslaan drukt, zie je het gelijk veranderen in je browser.</p>
+        <br>
+
+        <p><b>Vraag 4: Wat vond je het lastigste om te doen in periode 1?</b></p>
+        <p>Antwoord: Het werken met flexbox om dingen goed naast elkaar te zetten, en in het begin had ik een foutje met dubbele .jpg achter mijn fotonamen.</p>
+        <br>
+
+        <p><b>Vraag 5: Wat wil je in de volgende periodes graag leren?</b></p>
+        <p>Antwoord: Ik wil hierna graag leren programmeren met talen zoals JavaScript en PHP zodat mijn website nog meer kan doen.</p>
+    </div>
+
+    <hr>
+
+    <div id="vakken" class="tweekolommen">
+        <div class="kolom">
+            <h2>Uitlegvideo HTML & CSS</h2>
+            <p>Deze korte Nederlandse video legt in 1 minuut de basis van HTML uit:</p>
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/yr7b3Gt8k-E" title="Wat is HTML video"></iframe>
+        </div>
+
+        <div class="kolom">
+            <h2>Mijn vakken in Periode 1</h2>
+            <p>Overzicht van wat we hebben gedaan:</p>
+            <table>
+                <tr>
+                    <th>Vak</th>
+                    <th>Wat we hebben geleerd</th>
+                    <th>Resultaat</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Basis opbouw, plaatjes, tabellen en formulieren</td>
+                    <td>Behaald</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Kleuren, randen, flexbox en media query</td>
+                    <td>Behaald</td>
+                </tr>
+                <tr>
+                    <td>Ontwerpen</td>
+                    <td>Sitemap en wireframes tekenen in Figma</td>
+                    <td>Behaald</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="projecten" class="projectenstuk">
+        <h2>Mijn Projecten</h2>
+        <div class="projectrij">
+            <div class="kaart">
+                <img src="placeholder.jpg.jpg" alt="project 1">
+                <h3>Project 1: Portfolio</h3>
+                <p>Mijn eigen portfolio website gemaakt met HTML en CSS in periode 1.</p>
+            </div>
+
+            <div class="kaart">
+                <img src="placeholder.jpg.jpg" alt="project 2">
+                <h3>Project 2: Phishing</h3>
+                <p>Opdracht voor school over hoe nep-mails werken en hoe je ze herkent.</p>
+            </div>
+
+            <div class="kaart">
+                <img src="placeholder.jpg.jpg" alt="project 3">
+                <h3>Project 3: Periode 2</h3>
+                <p>Deze plek is voor het volgende project dat we na periode 1 gaan bouwen.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="contact" class="contactstuk">
+        <h2>Stuur mij een bericht</h2>
+        <form>
+            <label for="naam">Je naam:</label><br>
+            <input type="text" id="naam" name="naam"><br><br>
+
+            <label for="email">Je e-mailadres:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="onderwerp">Onderwerp:</label><br>
+            <input type="text" id="onderwerp" name="onderwerp"><br><br>
+
+            <label for="bericht">Je bericht:</label><br>
+            <textarea id="bericht" name="bericht" rows="5"></textarea>
+
+            <br><br>
+            <button type="submit">Verstuur bericht</button>
+        </form>
+    </div>
+
+    <div class="onderkant">
+        <p>Gemaakt door Rodi Dizjwar - Klas 1 Software Developer (TCR)</p>
+        <p><a href="https://github.com/RodiDizjwar/p1-html-css">Bekijk hier mijn GitHub pagina</a></p>
+    </div>
+
+</body>
+</html>
